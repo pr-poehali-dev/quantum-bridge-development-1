@@ -161,7 +161,7 @@ const BottomSections = () => {
                   👩
                 </div>
                 <div>
-                  <p className="font-semibold text-sm">Мама</p>
+                  <p className="font-semibold text-sm">Иванова Светлана Андреевна</p>
                   <p className="text-white/50 text-xs">Родитель</p>
                 </div>
               </div>
@@ -176,7 +176,7 @@ const BottomSections = () => {
                   🧒
                 </div>
                 <div>
-                  <p className="font-semibold text-sm">Участник лагеря</p>
+                  <p className="font-semibold text-sm">Вова, 10 лет</p>
                   <p className="text-white/50 text-xs">Ребёнок</p>
                 </div>
               </div>
@@ -191,8 +191,8 @@ const BottomSections = () => {
                   🙋
                 </div>
                 <div>
-                  <p className="font-semibold text-sm">Вожатый</p>
-                  <p className="text-white/50 text-xs">Команда лагеря</p>
+                  <p className="font-semibold text-sm">Марина</p>
+                  <p className="text-white/50 text-xs">Вожатый</p>
                 </div>
               </div>
             </div>
