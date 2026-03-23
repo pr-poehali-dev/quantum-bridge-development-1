@@ -143,6 +143,63 @@ const BottomSections = () => {
         </div>
       </section>
 
+      {/* Reviews Section */}
+      <section className="relative z-10 py-24 px-6">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">Отзывы</h2>
+            <p className="text-white/70 text-lg">Что говорят родители, дети и вожатые</p>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+            <div className="rounded-2xl bg-white/5 ring-1 ring-white/10 backdrop-blur p-8 flex flex-col gap-6">
+              <p className="text-white/80 leading-relaxed text-sm flex-1">
+                «Отправляла ребёнка с переживаниями, всё-таки палаточный формат — это не самый привычный вариант. Но уже через пару дней он звонил и с восторгом рассказывал про костры, новые знакомства и жизнь на природе. Вернулся более самостоятельным, уверенным и очень вдохновлённым. Спасибо за атмосферу, заботу и настоящий опыт, который не получить в обычном лагере.»
+              </p>
+              <div className="flex items-center gap-3 pt-4 border-t border-white/10">
+                <div className="w-10 h-10 rounded-full bg-pink-900/50 flex items-center justify-center text-lg flex-shrink-0">
+                  👩
+                </div>
+                <div>
+                  <p className="font-semibold text-sm">Мама</p>
+                  <p className="text-white/50 text-xs">Родитель</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="rounded-2xl bg-white/5 ring-1 ring-white/10 backdrop-blur p-8 flex flex-col gap-6">
+              <p className="text-white/80 leading-relaxed text-sm flex-1">
+                «Это был самый крутой лагерь! Мы жили в палатках, сидели у костра, готовили еду и постоянно что-то делали вместе. Я нашёл много друзей, научился новому и вообще не хотел уезжать. Было ощущение настоящего приключения каждый день. Хочу поехать ещё раз!»
+              </p>
+              <div className="flex items-center gap-3 pt-4 border-t border-white/10">
+                <div className="w-10 h-10 rounded-full bg-blue-900/50 flex items-center justify-center text-lg flex-shrink-0">
+                  🧒
+                </div>
+                <div>
+                  <p className="font-semibold text-sm">Участник лагеря</p>
+                  <p className="text-white/50 text-xs">Ребёнок</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="rounded-2xl bg-white/5 ring-1 ring-white/10 backdrop-blur p-8 flex flex-col gap-6">
+              <p className="text-white/80 leading-relaxed text-sm flex-1">
+                «Работа в этом лагере — это не просто смена, а полноценная жизнь вместе с детьми. Здесь нет дистанции, ты постоянно рядом, поддерживаешь, направляешь и сам становишься частью команды. Дети раскрываются, становятся сильнее и увереннее, а коллектив получается очень сплочённым. Атмосфера живая, настоящая — именно за этим сюда и едут.»
+              </p>
+              <div className="flex items-center gap-3 pt-4 border-t border-white/10">
+                <div className="w-10 h-10 rounded-full bg-green-900/50 flex items-center justify-center text-lg flex-shrink-0">
+                  🙋
+                </div>
+                <div>
+                  <p className="font-semibold text-sm">Вожатый</p>
+                  <p className="text-white/50 text-xs">Команда лагеря</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section className="relative z-10 py-24 px-6">
         <div className="max-w-7xl mx-auto">
