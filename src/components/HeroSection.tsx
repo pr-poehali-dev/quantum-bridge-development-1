@@ -41,7 +41,7 @@ const HeroSection = () => {
           <span className="text-sm font-medium">Палаточный лагерь · Краснознаменск</span>
         </div>
 
-        <h1 className="text-6xl md:text-8xl font-light tracking-tight mb-6 text-balance">Настоящее детство.</h1>
+        <h1 className="text-6xl md:text-8xl font-light tracking-tight mb-6 text-balance">Палаточный лагерь<br />«ЗКД».</h1>
 
         <p className="text-xl md:text-2xl text-white/90 max-w-4xl mb-12 leading-relaxed text-pretty">
           Никаких корпусов и вай-фая — только палатки, костры, гитара и вожатые, которые живут рядом 24/7. Добро пожаловать в лагерь «ЗКД».
