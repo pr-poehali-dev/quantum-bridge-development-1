@@ -245,17 +245,32 @@ const BottomSections = () => {
                   </p>
                 </div>
 
-                <div className="rounded-2xl bg-white/95 text-black p-6 shadow-2xl">
-                  <div className="flex items-center gap-4 mb-4">
-                    <div className="w-16 h-16 rounded-full bg-orange-100 flex items-center justify-center text-2xl">
-                      🏕️
-                    </div>
-                    <div>
-                      <h4 className="text-lg font-semibold">Администрация лагеря</h4>
-                      <p className="text-gray-600">Палаточный лагерь «ЗКД»</p>
+                <div className="space-y-4">
+                  <div className="rounded-2xl bg-white/95 text-black p-6 shadow-2xl">
+                    <div className="flex items-center gap-4">
+                      <div className="w-12 h-12 rounded-full bg-orange-100 flex items-center justify-center text-xl flex-shrink-0">
+                        👩‍💼
+                      </div>
+                      <div>
+                        <p className="text-xs text-gray-500 uppercase tracking-wider mb-0.5">Директор лагеря</p>
+                        <h4 className="text-base font-semibold leading-tight">Гребенщикова Полина Дмитриевна</h4>
+                      </div>
                     </div>
                   </div>
-                  <Button className="w-full bg-black text-white hover:bg-gray-800 rounded-lg flex items-center justify-center gap-2">
+
+                  <div className="rounded-2xl bg-white/95 text-black p-6 shadow-2xl">
+                    <div className="flex items-center gap-4">
+                      <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-xl flex-shrink-0">
+                        👩‍💼
+                      </div>
+                      <div>
+                        <p className="text-xs text-gray-500 uppercase tracking-wider mb-0.5">Заместитель директора</p>
+                        <h4 className="text-base font-semibold leading-tight">Богушевская Оксана Николаевна</h4>
+                      </div>
+                    </div>
+                  </div>
+
+                  <Button className="w-full bg-white text-black hover:bg-white/90 rounded-2xl p-6 flex items-center justify-center gap-2 h-auto ring-1 ring-white/20">
                     <Mail className="w-4 h-4" />
                     Написать нам
                   </Button>
